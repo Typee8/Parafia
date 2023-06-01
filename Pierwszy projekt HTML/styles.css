@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body, header, nav {
+  margin: 0;
+  padding: 0;
+}
+
+
+.topstrip {
+  display: block;
+  width: 100%;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid red;
+  background-color:aqua;
+}
+
+.topstrip li {
+  list-style: none;
+  display: inline;
+  position: relative;
+  left: 1500px;
+  margin-right: 1.5%;
+}
+
+header {
+  display: inline-block;
+  width: 100%;
+  background-color: aqua;
+}
+
+.navcenter {
+  display: block;
+  position: relative;
+  width: 120px;
+  height: 110px;
+  margin: 0 auto;
+}
+
+.navleft {
+  display: block;
+  list-style: none;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+.navright {
+  display: block;
+  list-style: none;
+  text-align: right;
+  border: 1px solid red;
+}
